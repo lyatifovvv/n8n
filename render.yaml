@@ -18,4 +18,5 @@ services:
       - key: DB_TYPE
         value: postgresdb
       - key: DB_POSTGRESDB_CONNECTION_STRING
-        value: postgresql://neondb_owner:npg_Masz93IOFxyg@ep-young-wave-a2himr5o-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require
+        value: value: postgresql://neondb_owner:npg_Masz93IOFxyg@ep-young-wave-a2himr5o-pooler.eu-central-1.aws.neon.tech:5432/neondb?sslmode=require
+
