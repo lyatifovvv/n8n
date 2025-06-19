@@ -7,6 +7,8 @@ services:
     envVars:
       - key: N8N_HOST
         value: n8n-au60.onrender.com
+      - key: WEBHOOK_TUNNEL_URL
+        value: https://n8n-au60.onrender.com
       - key: N8N_PORT
         value: 5678
       - key: N8N_BASIC_AUTH_ACTIVE
@@ -18,5 +20,5 @@ services:
       - key: DB_TYPE
         value: postgresdb
       - key: DB_POSTGRESDB_CONNECTION_STRING
-        value: postgresql://neondb_owner:npg_Masz93IOFxyg@ep-young-wave-a2himr5o-pooler.eu-central-1.aws.neon.tech:5432/neondb?sslmode=require
+        value: postgresql://neondb_owner:npg_Masz93IOFxyg@ep-young-wave-a2himr5o-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require
 
